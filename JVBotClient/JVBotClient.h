@@ -2,7 +2,6 @@
  * File:   JVBotClient.h
  * Author: javi
  *
- * Created on 13 de agosto de 2014, 13:51
  */
 
 #ifndef JVBOTCLIENT_H
@@ -43,5 +42,5 @@ private:
     ros::Publisher m_pubStartBot;
 };
 
-#endif	/* JVBOTCLIENT_H */
+#endif
 
