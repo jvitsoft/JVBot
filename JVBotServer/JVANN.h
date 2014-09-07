@@ -6,7 +6,7 @@
 #include <QSet>
 #include <opencv2/core/core.hpp>
 #include <opencv2/highgui/highgui.hpp>
-#include "opencv2/ml/ml.hpp"          // opencv machine learning include file
+#include "opencv2/ml/ml.hpp"   
 #include "JVInputGenerator.h"
 #include <QScopedPointer>
 #include "JVImage.h"
