@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="94">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>JVAreaSelector.h</itemPath>
+      <itemPath>JVBotClient.h</itemPath>
+      <itemPath>JVBotClientUI.h</itemPath>
+      <itemPath>JVRenderArea.h</itemPath>
+      <itemPath>JVViewer.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <itemPath>JVBotClientUI.ui</itemPath>
+      <itemPath>JVViewer.ui</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>JVAreaSelector.cpp</itemPath>
+      <itemPath>JVBotClient.cpp</itemPath>
+      <itemPath>JVBotClientUI.cpp</itemPath>
+      <itemPath>JVRenderArea.cpp</itemPath>
+      <itemPath>JVViewer.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="4">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <qt>
+        <modules>core gui widgets</modules>
+      </qt>
+      <compileType>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>/opt/ros/indigo/include</pElem>
+            <pElem>/home/vrs/Qt5.0.2/5.0.2/gcc/include</pElem>
+            <pElem>/home/vrs/Qt5.0.2/5.0.2/gcc/include/QtCore</pElem>
+          </incDir>
+        </ccTool>
+      </compileType>
+      <item path="JVAreaSelector.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVAreaSelector.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVBotClient.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVBotClient.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVBotClientUI.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVBotClientUI.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVBotClientUI.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVRenderArea.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVRenderArea.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVViewer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVViewer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVViewer.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="4">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <qt>
+        <buildMode>1</buildMode>
+        <modules>core gui widgets</modules>
+      </qt>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="JVAreaSelector.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVAreaSelector.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVBotClient.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVBotClient.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVBotClientUI.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVBotClientUI.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVBotClientUI.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVRenderArea.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVRenderArea.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVViewer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVViewer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVViewer.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

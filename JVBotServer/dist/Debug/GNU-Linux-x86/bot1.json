@@ -1,0 +1,79 @@
+{
+    "ANN": {lñ
+        "classes": [
+            {
+                "label": "0g"
+            },
+            {jkklll
+                "label": "1"
+            },
+            {
+                "label": "2"
+            },
+            {
+                "label": "3"
+            },
+            {
+                "label": "4"
+            },
+            {
+                "label": "5"
+            },
+            {
+                "label": "6"
+            },
+            {
+                "label": "7"
+            },
+            {
+                "label": "8"
+            },
+            {
+                "label": "9"
+            }
+        ],
+        "inputsGenerator": {
+            "configuration": {
+            },
+            "id": "PixelValue"
+        },
+        "numImagesTest": "10",
+        "numImagesTraining": "100",
+        "setName": "digits"
+    },
+    "area": {
+        "height": 2224,
+        "width": 229,
+        "x": 259,
+        "y": 217
+    },
+    "id": "bot1",
+    "preprocesing": {
+    },
+    "procesing": {
+        "algorithms": [
+            {
+                "configuration": {
+                    "maxval": "255",
+                    "thresh": "50",
+                    "type": "0"
+                },
+                "id": "Binarize"
+            },
+            {
+                "configuration": {
+                },
+                "id": "Contours"
+            },
+            {
+                "configuration": {
+                    "height": "16",
+                    "width": "16"
+                },
+                "id": "Resize"
+            }
+        ]
+    },
+    "type": "Demo"
+}
+

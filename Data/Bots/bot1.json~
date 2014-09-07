@@ -1,0 +1,86 @@
+{
+    "ANN": {
+        "classes": [
+            {
+                "label": "00"
+            },
+	    {
+                "label": "11"
+            }
+        ],
+        "inputsGenerator": {
+            "configuration": {
+            },
+            "id": "HOG"
+        },
+        "numImagesTest": "63",
+        "numImagesTraining": "63",
+        "setName": "digits"
+    },
+    "area": {
+        "height": 756,
+        "width": 1355,
+        "x": 3,
+        "y": 4
+    },
+    "id": "bot1",
+    "preprocesing": {
+        "algorithms": [
+	{
+		"configuration": 
+		{
+		},
+		"id": "Grayscale"
+	},           
+	{
+		"configuration": 
+		{
+		    "maxval": "255",
+		    "thresh": "230",
+		    "type": "0"
+		},
+		"id": "Binarize"
+	},
+	{
+		"configuration": 
+		{
+		},
+		"id": "Blobs"
+	}
+        ]
+    },
+    "procesing": {
+        "algorithms": [
+	{
+		"configuration": 
+		{
+		},
+		"id": "Grayscale"
+	},           
+	{
+		"configuration": 
+		{
+		    "maxval": "255",
+		    "thresh": "230",
+		    "type": "0"
+		},
+		"id": "Binarize"
+	},
+	{
+		"configuration": 
+		{
+		},
+		"id": "Blobs"
+	},
+	{
+		"id": "Resize",
+		"configuration": {
+			"width" : "32",
+			"height" : "32"
+		}
+	}
+        ]
+    },
+    "type": "Demo"
+}
+

@@ -1,0 +1,82 @@
+{
+	"id" : "bot1",
+	"type" : "Demo",
+	"area" : {
+		"x": "100",
+		"y": "100",
+		"width": "200",
+		"height": "300"
+	},
+	"preprocesing" : {
+	
+	},
+	"procesing": {
+		"algorithms": [
+			{
+				"id": "Binarize",
+				"configuration": {
+					"thresh" : "50",
+					"maxval" : "255",
+					"type" : "0"
+				}
+			},
+			{
+				"id": "Contours",
+				"configuration": {
+				
+				}
+			},
+			{
+				"id": "Resize",
+				"configuration": {
+					"width" : "16",
+					"height" : "16"
+				}
+			}
+		]
+	},
+	"ANN": {
+		"setName" : "digits",
+		"classes" : [
+			{
+				"label" : "0"
+			},
+			{
+				"label" : "1"
+			},
+			{
+				"label" : "2"
+			},
+			{
+				"label" : "3"
+			},
+			{
+				"label" : "4"
+			},
+			{
+				"label" : "5"
+			},
+			{
+				"label" : "6"
+			},
+			{
+				"label" : "7"
+			},
+			{
+				"label" : "8"
+			},
+			{
+				"label" : "9"
+			}
+		],
+		"numImagesTraining" : "100",
+		"numImagesTest" : "10",
+		"inputsGenerator": {
+			"id": "PixelValue",
+			"configuration": {
+				
+			}
+		}
+	}
+}
+

@@ -1,0 +1,79 @@
+{
+    "ANN": {lñ
+        "classes": [
+            {
+                "labehffdfgdgl": "0g"
+            },
+            {jkklll
+                "label": "1"vvbffvvvvvvvvvdcvveeeedsf
+            },
+            {kkmkjjkkkl
+                "label": "2"fsfffvfffccccj
+            },cc
+            {dddd
+                "label": "3"ssfffssvvvsdfs
+            },
+            {ddd
+                "label": "4"lddddddfffsdddss
+            },dddd
+            {fff
+                "label": "5"dddffffffffddddddddddddddddddddfffffff
+            },ddd
+            {dddhjh
+                "label": "6"dddddddddddd
+            },
+            {
+                "label": "7"sfs
+            },
+            {
+                "label": "8"sdfsdddddd
+            },
+            {f
+                "label": "9"
+            }
+        ],
+        "inputsGenerator": {
+            "configuration": {
+            },
+            "id": "PixelValue"
+        },
+        "numImagesTest": "10",
+        "numImagesTraining": "100",
+        "setName": "digits"
+    },
+    "area": {
+        "height": 2224,
+        "width": 229,
+        "x": 259,
+        "y": 217
+    },
+    "id": "bot1",
+    "preprocesing": {
+    },
+    "procesing": {
+        "algorithms": [
+            {
+                "configuration": {
+                    "maxval": "255",
+                    "thresh": "50",
+                    "type": "0"
+                },
+                "id": "Binarize"
+            },
+            {
+                "configuration": {
+                },
+                "id": "Contours"
+            },
+            {
+                "configuration": {
+                    "height": "16",
+                    "width": "16"
+                },
+                "id": "Resize"
+            }
+        ]
+    },
+    "type": "Demo"
+}
+

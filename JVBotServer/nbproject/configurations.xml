@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="94">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="f1" displayName="Algorithms" projectFiles="true">
+        <itemPath>JVAlgorithm.h</itemPath>
+        <itemPath>JVAlgorithmBinarize.h</itemPath>
+        <itemPath>JVAlgorithmBlobs.h</itemPath>
+        <itemPath>JVAlgorithmGrayscale.h</itemPath>
+        <itemPath>JVAlgorithmResize.h</itemPath>
+      </logicalFolder>
+      <itemPath>JVANN.h</itemPath>
+      <itemPath>JVBot.h</itemPath>
+      <itemPath>JVBotDemo.h</itemPath>
+      <itemPath>JVBotManager.h</itemPath>
+      <itemPath>JVBotServer.h</itemPath>
+      <itemPath>JVBotServerUI.h</itemPath>
+      <itemPath>JVDataDetected.h</itemPath>
+      <itemPath>JVImage.h</itemPath>
+      <itemPath>JVImageManager.h</itemPath>
+      <itemPath>JVImageProcessor.h</itemPath>
+      <itemPath>JVImageScanner.h</itemPath>
+      <itemPath>JVInputGenerator.h</itemPath>
+      <itemPath>JVInputGeneratorHOG.h</itemPath>
+      <itemPath>JVRenderArea.h</itemPath>
+      <itemPath>JVScreenCapturer.h</itemPath>
+      <itemPath>JVTrainer.h</itemPath>
+      <itemPath>JVTrainerCombination.h</itemPath>
+      <itemPath>JVTrainingSetData.h</itemPath>
+      <itemPath>JVTrainingSetGenerator.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <itemPath>JVBotServerUI.ui</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="f1" displayName="Algorithms" projectFiles="true">
+        <itemPath>JVAlgorithm.cpp</itemPath>
+        <itemPath>JVAlgorithmBinarize.cpp</itemPath>
+        <itemPath>JVAlgorithmBlobs.cpp</itemPath>
+        <itemPath>JVAlgorithmGrayscale.cpp</itemPath>
+        <itemPath>JVAlgorithmResize.cpp</itemPath>
+      </logicalFolder>
+      <itemPath>JVANN.cpp</itemPath>
+      <itemPath>JVBot.cpp</itemPath>
+      <itemPath>JVBotDemo.cpp</itemPath>
+      <itemPath>JVBotManager.cpp</itemPath>
+      <itemPath>JVBotServer.cpp</itemPath>
+      <itemPath>JVBotServerUI.cpp</itemPath>
+      <itemPath>JVDataDetected.cpp</itemPath>
+      <itemPath>JVImage.cpp</itemPath>
+      <itemPath>JVImageManager.cpp</itemPath>
+      <itemPath>JVImageProcessor.cpp</itemPath>
+      <itemPath>JVImageScanner.cpp</itemPath>
+      <itemPath>JVInputGenerator.cpp</itemPath>
+      <itemPath>JVInputGeneratorHOG.cpp</itemPath>
+      <itemPath>JVRenderArea.cpp</itemPath>
+      <itemPath>JVScreenCapturer.cpp</itemPath>
+      <itemPath>JVTrainer.cpp</itemPath>
+      <itemPath>JVTrainerCombination.cpp</itemPath>
+      <itemPath>JVTrainingSetData.cpp</itemPath>
+      <itemPath>JVTrainingSetGenerator.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="4">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <qt>
+        <modules>core gui widgets</modules>
+      </qt>
+      <compileType>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>/home/vrs/Qt5.0.2/5.0.2/gcc/include</pElem>
+            <pElem>/opt/ros/indigo/include</pElem>
+            <pElem>/home/vrs/Qt5.0.2/5.0.2/gcc/include/QtCore</pElem>
+          </incDir>
+        </ccTool>
+      </compileType>
+      <item path="JVANN.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVANN.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVAlgorithm.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVAlgorithm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVAlgorithmBinarize.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVAlgorithmBinarize.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVAlgorithmBlobs.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVAlgorithmBlobs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVAlgorithmGrayscale.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVAlgorithmGrayscale.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVAlgorithmResize.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVAlgorithmResize.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVBot.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVBot.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVBotDemo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVBotDemo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVBotManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVBotManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVBotServer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVBotServer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVBotServerUI.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVBotServerUI.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVBotServerUI.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVDataDetected.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVDataDetected.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVImage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVImage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVImageManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVImageManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVImageProcessor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVImageProcessor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVImageScanner.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVImageScanner.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVInputGenerator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVInputGenerator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVInputGeneratorHOG.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVInputGeneratorHOG.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVRenderArea.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVRenderArea.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVScreenCapturer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVScreenCapturer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVTrainer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVTrainer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVTrainerCombination.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVTrainerCombination.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVTrainingSetData.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVTrainingSetData.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVTrainingSetGenerator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVTrainingSetGenerator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="4">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <qt>
+        <buildMode>1</buildMode>
+        <modules>core gui widgets</modules>
+      </qt>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="JVANN.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVANN.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVAlgorithm.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVAlgorithm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVAlgorithmBinarize.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVAlgorithmBinarize.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVAlgorithmBlobs.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVAlgorithmBlobs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVAlgorithmGrayscale.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVAlgorithmGrayscale.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVAlgorithmResize.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVAlgorithmResize.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVBot.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVBot.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVBotDemo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVBotDemo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVBotManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVBotManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVBotServer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVBotServer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVBotServerUI.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVBotServerUI.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVBotServerUI.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVDataDetected.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVDataDetected.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVImage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVImage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVImageManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVImageManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVImageProcessor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVImageProcessor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVImageScanner.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVImageScanner.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVInputGenerator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVInputGenerator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVInputGeneratorHOG.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVInputGeneratorHOG.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVRenderArea.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVRenderArea.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVScreenCapturer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVScreenCapturer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVTrainer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVTrainer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVTrainerCombination.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVTrainerCombination.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVTrainingSetData.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVTrainingSetData.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="JVTrainingSetGenerator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="JVTrainingSetGenerator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

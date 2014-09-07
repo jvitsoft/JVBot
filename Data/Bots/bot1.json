@@ -1,0 +1,104 @@
+{
+    "ANN": {
+        "classes": [
+            {
+                "label": "0"
+            },
+            {
+                "label": "1"
+            },
+            {
+                "label": "2"
+            },
+            {
+                "label": "3"
+            },
+            {
+                "label": "4"
+            },
+            {
+                "label": "5"
+            },
+            {
+                "label": "6"
+            },
+            {
+                "label": "7"
+            },
+            {
+                "label": "8"
+            },
+            {
+                "label": "9"
+            }
+        ],
+        "inputsGenerator": {
+            "configuration": {
+            },
+            "id": "HOG"
+        },
+        "numImagesTest": "63",
+        "numImagesTraining": "63",
+        "setName": "digits"
+    },
+    "area": {
+        "height": 128,
+        "width": 135,
+        "x": 921,
+        "y": 297
+    },
+    "id": "bot1",
+    "preprocesing": {
+        "algorithms": [
+            {
+                "configuration": {
+                },
+                "id": "Grayscale"
+            },
+            {
+                "configuration": {
+                    "maxval": "255",
+                    "thresh": "230",
+                    "type": "0"
+                },
+                "id": "Binarize"
+            },
+            {
+                "configuration": {
+                },
+                "id": "Blobs"
+            }
+        ]
+    },
+    "procesing": {
+        "algorithms": [
+            {
+                "configuration": {
+                },
+                "id": "Grayscale"
+            },
+            {
+                "configuration": {
+                    "maxval": "255",
+                    "thresh": "230",
+                    "type": "0"
+                },
+                "id": "Binarize"
+            },
+            {
+                "configuration": {
+                },
+                "id": "Blobs"
+            },
+            {
+                "configuration": {
+                    "height": "32",
+                    "width": "32"
+                },
+                "id": "Resize"
+            }
+        ]
+    },
+    "type": "Demo"
+}
+

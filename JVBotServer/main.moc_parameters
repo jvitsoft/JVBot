@@ -1,0 +1,13 @@
+-I/home/javi/Qt/5.3/gcc/include
+-I/home/javi/Qt/5.3/gcc/include/QtWidgets
+-I/home/javi/Qt/5.3/gcc/include/QtGui
+-I/home/javi/Qt/5.3/gcc/include/QtCore
+-I/home/javi/Qt/5.3/gcc/mkspecs/linux-g++
+-I/home/javi/NetBeansProjects/JVBotServer
+-I/home/javi/NetBeansProjects/JVBotServer
+-DQT_WIDGETS_LIB
+-DQT_GUI_LIB
+-DQT_CORE_LIB
+-o
+/home/javi/NetBeansProjects/JVBotServer/main.moc
+/home/javi/NetBeansProjects/JVBotServer/main.cpp

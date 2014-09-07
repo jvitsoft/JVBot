@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <data xmlns="http://www.netbeans.org/ns/make-project-private/1">
+        <activeConfTypeElem>4</activeConfTypeElem>
+        <activeConfIndexElem>0</activeConfIndexElem>
+    </data>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/vrs/NetBeansProjects/JVBotServer/JVAlgorithmResize.h</file>
+            <file>file:/home/vrs/NetBeansProjects/JVBotServer/JVBotServerUI.h</file>
+            <file>file:/home/vrs/NetBeansProjects/JVBotServer/JVScreenCapturer.h</file>
+            <file>file:/home/vrs/NetBeansProjects/JVBotServer/JVAlgorithm.cpp</file>
+            <file>file:/home/vrs/NetBeansProjects/JVBotServer/JVTrainerCombination.cpp</file>
+            <file>file:/home/vrs/NetBeansProjects/JVBotServer/main.cpp</file>
+            <file>file:/home/vrs/NetBeansProjects/JVBotServer/JVTrainer.h</file>
+            <file>file:/home/vrs/NetBeansProjects/JVBotServer/JVImageScanner.h</file>
+            <file>file:/home/vrs/NetBeansProjects/JVBotServer/JVTrainingSetGenerator.h</file>
+            <file>file:/home/vrs/NetBeansProjects/JVBotServer/JVAlgorithmBlobs.cpp</file>
+            <file>file:/home/vrs/NetBeansProjects/JVBotServer/JVBot.cpp</file>
+            <file>file:/home/vrs/NetBeansProjects/JVBotServer/JVImageProcessor.h</file>
+            <file>file:/home/vrs/NetBeansProjects/JVBotServer/JVBot.h</file>
+            <file>file:/home/vrs/NetBeansProjects/JVBotServer/JVTrainingSetGenerator.cpp</file>
+            <file>file:/home/vrs/NetBeansProjects/JVBotServer/JVBotDemo.h</file>
+            <file>file:/home/vrs/NetBeansProjects/JVBotServer/JVImageManager.cpp</file>
+            <file>file:/home/vrs/NetBeansProjects/JVBotServer/JVAlgorithmResize.cpp</file>
+            <file>file:/home/vrs/NetBeansProjects/JVBotServer/JVAlgorithmBlobs.h</file>
+            <file>file:/home/vrs/NetBeansProjects/JVBotServer/JVRenderArea.h</file>
+            <file>file:/home/vrs/NetBeansProjects/JVBotServer/JVBotServerUI.cpp</file>
+            <file>file:/home/vrs/NetBeansProjects/JVBotServer/JVANN.h</file>
+            <file>file:/home/vrs/NetBeansProjects/JVBotServer/JVBotDemo.cpp</file>
+            <file>file:/home/vrs/NetBeansProjects/JVBotServer/JVScreenCapturer.cpp</file>
+            <file>file:/home/vrs/NetBeansProjects/JVBotServer/JVBotServer.h</file>
+            <file>file:/home/vrs/NetBeansProjects/JVBotServer/JVDataDetected.h</file>
+            <file>file:/home/vrs/NetBeansProjects/JVBotServer/JVDataDetected.cpp</file>
+            <file>file:/home/vrs/NetBeansProjects/JVBotServer/JVRenderArea.cpp</file>
+            <file>file:/home/vrs/NetBeansProjects/JVBotServer/JVAlgorithmGrayscale.cpp</file>
+            <file>file:/home/vrs/NetBeansProjects/JVBotServer/JVTrainingSetData.h</file>
+            <file>file:/home/vrs/NetBeansProjects/JVBotServer/JVInputGeneratorHOG.cpp</file>
+            <file>file:/home/vrs/NetBeansProjects/JVBotServer/JVAlgorithmBinarize.cpp</file>
+            <file>file:/home/vrs/NetBeansProjects/JVBotServer/JVTrainerCombination.h</file>
+            <file>file:/home/vrs/NetBeansProjects/JVBotServer/JVBotServer.cpp</file>
+            <file>file:/home/vrs/NetBeansProjects/JVBotServer/JVANN.cpp</file>
+            <file>file:/home/vrs/NetBeansProjects/JVBotServer/JVImageManager.h</file>
+            <file>file:/home/vrs/NetBeansProjects/JVBotServer/JVImageScanner.cpp</file>
+            <file>file:/home/vrs/NetBeansProjects/JVBotServer/JVBotManager.h</file>
+            <file>file:/home/vrs/NetBeansProjects/JVBotServer/JVImageProcessor.cpp</file>
+            <file>file:/home/vrs/NetBeansProjects/JVBotServer/JVTrainer.cpp</file>
+            <file>file:/home/vrs/NetBeansProjects/JVBotServer/JVTrainingSetData.cpp</file>
+            <file>file:/home/vrs/NetBeansProjects/JVBotServer/JVImage.cpp</file>
+            <file>file:/home/vrs/NetBeansProjects/JVBotServer/JVBotManager.cpp</file>
+        </group>
+    </open-files>
+</project-private>
